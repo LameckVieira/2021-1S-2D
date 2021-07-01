@@ -1,0 +1,65 @@
+CREATE DATABASE Pclinics;
+GO
+
+USE Pclinics;
+GO
+
+CREATE TABLE Clinicas 
+(
+    IdClinica		INT PRIMARY KEY IDENTITY
+    ,RazaoSocial    VARCHAR(200) NOT NULL UNIQUE
+	,CNPJ		    CHAR(14) NOT NULL UNIQUE
+	,Endereco	    VARCHAR(200) NOT NULL UNIQUE
+);
+GO
+
+CREATE TABLE TiposPets
+(
+    IdTipoPet	INT PRIMARY KEY IDENTITY
+    ,Descricao	VARCHAR(200) UNIQUE
+);
+GO
+
+CREATE TABLE Racas
+(
+    IdRaca		INT PRIMARY KEY IDENTITY
+    ,Descricao	VARCHAR(200) UNIQUE NOT NULL
+    ,IdTipoPet  INT FOREIGN KEY REFERENCES TiposPets (IdTipoPet)
+);
+GO
+
+CREATE TABLE Donos
+(
+	IdDono		INT PRIMARY KEY IDENTITY
+	,Nome		VARCHAR(200) NOT NULL
+);
+GO
+
+CREATE TABLE Pets
+(
+    IdPet				INT PRIMARY KEY IDENTITY
+    ,Nome				VARCHAR(200)
+    ,DataNascimento		DATE
+	,IdRaca				INT FOREIGN KEY REFERENCES Racas (IdRaca)
+	,IdDono				INT FOREIGN KEY REFERENCES Donos (IdDono)
+);
+GO
+
+CREATE TABLE Veterinarios
+(
+    IdVeterinario   INT PRIMARY KEY IDENTITY
+    ,Nome			VARCHAR(200)
+	,CRMV			CHAR(6) UNIQUE
+	,IdClinica		INT FOREIGN KEY REFERENCES Clinicas (IdClinica)
+);
+GO
+
+CREATE TABLE Atendimentos
+(
+    IdAtendimento		INT PRIMARY KEY IDENTITY
+    ,Descricao			VARCHAR(200)
+	,DataAtendimento	DATE NOT NULL
+	,IdVeterinario		INT FOREIGN KEY REFERENCES Veterinarios (IdVeterinario)
+	,IdPet				INT FOREIGN KEY REFERENCES Pets (IdPet)
+);
+GO

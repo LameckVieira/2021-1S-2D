@@ -1,0 +1,4 @@
+Nesse exercício vocês deverão transformar uma tabela NAO NORMALIZADA em uma tabela NORMALIZADA NA TERCEIRA FORMA NORMAL.
+
+O exercício está resolvido na tabela excel enviada, mas segue uma IMG para tentarem resolver.
+

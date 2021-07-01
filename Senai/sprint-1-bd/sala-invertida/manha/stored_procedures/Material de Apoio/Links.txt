@@ -1,0 +1,5 @@
+https://www.w3schools.com/sql/sql_stored_procedures.asp
+https://www.devmedia.com.br/stored-procedures-no-mysql/29030
+https://www.devmedia.com.br/introducao-aos-stored-procedures-no-sql-server/7904
+https://www.devmedia.com.br/stored-procedure-parametros-de-entrada-e-saida/18573
+https://docs.microsoft.com/pt-br/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-ver15

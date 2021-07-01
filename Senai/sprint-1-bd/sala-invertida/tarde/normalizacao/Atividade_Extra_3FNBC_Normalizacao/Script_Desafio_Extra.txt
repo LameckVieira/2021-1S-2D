@@ -1,0 +1,3 @@
+Nesse exercício vocês deverão passar uma tabela NAO NORMALIZADA para uma tabela NORMALIZADA na TERCEIRA FORMA NORMAL DE BOYCE-CODD.
+
+Aqui não terá o exercício resolvido, apenas a imagem para ajudar na resolução.

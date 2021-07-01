@@ -1,0 +1,24 @@
+Basicamente, um 'evento' é uma tarefa que, com instruções de período para execução, é executada em um conceito de Scheduler(Uma ferramenta básica de gerenciamento de tempo consistindo em uma lista de vezes em que possíveis tarefas, eventos ou ações devem ocorrer, ou uma sequência de eventos na ordem cronológica em que essas coisas se destinam a ter lugar) de processos dentro do banco.
+ 
+Por padrão nossas bases de dados já são implementadas com o sistema de eventos ativo.
+ 
+Exemplo de criação de um evento:
+ 
+CREATE EVENT
+e /* Nome do Evento*/
+ON SCHEDULE
+EVERY 1 WEEK /* Configura o Intervalo */
+DO
+INSERT INTO t VALUES (0); /* Declara a ação SQL */
+ 
+O resultado desta tarefa é que, uma vez por semana, o MySQL vai adicionar uma coluna na tabela 't'.
+
+Os events não possuem retorno nem interface, pois ocorre em background.
+
+Definição: O agendamento de procedimento é uma funcionalidade implementada nos principais  SGBD's de mercado, para que o programa execute automaticamente em um horário pré-definido.
+
+Aplicações: -Agendamento de processamentos em massa fora do horário comercial
+	    -Realização de Atividades adminstrativas
+	    -Execução de scripts de backup
+	    -Replicação de dados assincrona
+	    -Carga de dados em bancos de dados de operações executadas em dia anterior

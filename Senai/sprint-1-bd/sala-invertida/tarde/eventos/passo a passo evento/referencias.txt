@@ -1,0 +1,4 @@
+referências: 
+1. https://docs.microsoft.com/pt-br/sql/relational-databases/extended-events/quick-start-extended-events-in-sql-server?view=sql-server-ver15
+2. https://www.youtube.com/watch?v=e4w0mFbf3xo&ab_channel=TheHimaBindu
+3. https://www.mssqltips.com/sqlservertutorial/9194/sql-server-extended-events-tutorial/

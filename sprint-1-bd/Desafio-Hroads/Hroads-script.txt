@@ -1,0 +1,1 @@
+O cliente HROADS deseja começar a construir o seu próprio jogo de RPG online. Para isto, ele definiu que cada personagem do jogo, possuirá uma classe e que cada classe do jogo irá possuir uma ou mais habilidades, e esta habilidade pertence somente a um tipo de habilidade.

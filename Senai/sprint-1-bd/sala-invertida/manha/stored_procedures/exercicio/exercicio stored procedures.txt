@@ -1,0 +1,31 @@
+Crie uma tabela no banco de dados que contenham as informações de seus clientes, sendo essas o seu nome, o nome para contato, o endereço, a cidade e o país.
+
+É Preciso registrar 4 clientes, com cada campo contendo:
+1- Nome Completo: Thomas Peterson Hardy
+   Nome de Contato: Thomas Hardy
+   Endereco: Hunter’s Creek 210
+   Cidade: Orlando
+   Pais: EUA
+
+2- Nome Completo: Carlos Silveira Santos
+   Nome de Contato: Carlos Santos
+   Endereco: Av. José Oswaldo de Araújo
+   Cidade: Belo Horizonte
+   Pais: Brasil
+
+3- Nome Completo: Francisco de Paula Rodrigues Alves
+   Nome de Contato: Rodrigues Alves
+   Endereco: R. Cruz de Malta
+   Cidade: Guaratinguetá
+   Pais: Brasil
+
+4- Nome Completo: Carlos de Campos
+   Nome de Contato: Carlos de Campos
+   Endereco: R. Corcovado 
+   Cidade: Belo Horizonte
+   Pais: Brasil
+
+
+Agora crie uma stored procedure para retornar todas as informações dos clientes
+Em seguida crie uma stored procedure com parâmetro de pais, consultando as informações somente dos clientes do Brasil
+Então, consulte as informações dos clientes oriundos de Belo Horizonte utilizando uma stored procedure

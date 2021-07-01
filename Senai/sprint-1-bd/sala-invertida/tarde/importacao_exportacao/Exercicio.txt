@@ -1,0 +1,14 @@
+
+Exercicio Importação e Exportação de Dados
+
+---------------------------------------------------------------------------------------------------------------------------
+Importação
+*Criar uma Planilha de uma loja de roupas no Excel, contendo: Produto, Cor, Material, PreçoDeCusto, PreçoÁVenda e Lucro.
+*Criar Um Banco de Dados e inserir os valores da planilha no banco, por meio da importação.
+----------------------------------------------------------------------------------------------------------------------------
+Exportação
+*Criar um arquivo no Excel vazio
+*Inserir os valores da Banco no arquivo do Excel que está vazio, por meio da exportação.
+---------------------------------------------------------------------------------------------------------------------------- 
+
+ 

@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lameck\\Desktop\\bd\\senai_sprint1_bd\\meu projeto\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lameck\\Desktop\\bd\\senai_sprint1_bd\\meu projeto\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lameck\\Desktop\\bd\\senai_sprint1_bd\\meu projeto\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi.csproj",
+        "projectName": "SP_Medical_Grupe.WebApi",
+        "projectPath": "C:\\Users\\Lameck\\Desktop\\bd\\senai_sprint1_bd\\meu projeto\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Lameck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lameck\\Desktop\\bd\\senai_sprint1_bd\\meu projeto\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lameck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

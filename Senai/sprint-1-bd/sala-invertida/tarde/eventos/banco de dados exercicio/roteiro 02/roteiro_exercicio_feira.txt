@@ -1,0 +1,7 @@
+Roteiro do Exercício - 02
+João e Marcos trabalham na mesma feira, porém, ambos tem barracas e vendem frutas diferentes. Seguindo isso, eles pensaram juntos em contratar um DBA para organizar
+o que entra e saí da barraca deles. 
+Pensando nisso, o DBA teve a seguinte ideia: Criar um evento estendido, ou seja, toda vez que o usuário adicionar, editar ou apagar alguma fruta, o evento irá mostrar!
+Só que aconteceu uma tragédia, o DBA ficou doente e não vai conseguir terminar o banco de dados. :(
+Porém, como um bom DBA, ele deixou um passo a passo para que o estágiario, vulgo você, consiga terminar a última parte que falta: o evento estendido. 
+Portanto, adicione, atualize ou delete alguma coisa e depois mostre se o evento registrou o que você fez e veremos se você pode subir de cargo!!!

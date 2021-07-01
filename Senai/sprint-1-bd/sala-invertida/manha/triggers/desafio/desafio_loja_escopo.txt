@@ -1,0 +1,8 @@
+Uma loja deseja fazer um registro de vendas em um banco de dados, indicando a data que a venda foi
+efetuada e quais foram os produtos vendidos! Mas com um pequeno detalhe: Isso deve ser feito de maneira automática após o registro de uma venda.
+
+Portanto, quando um produto for vendido ele deve ser resgistrado na tabela "ItensVendas", passando apenas o id
+do produto e sua quantidade. A loja deseja que o preço final seja calculado automaticamete de acordo com a
+quantidade de produtos que foi realizada em uma venda. Nesta tabela tambem deve conter o id da venda.
+
+A tabela vendas deve conter a a data que foi efetuada a venda e o "IdVenda".
