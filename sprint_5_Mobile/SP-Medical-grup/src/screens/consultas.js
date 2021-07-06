@@ -5,6 +5,7 @@ import jwtDecode from 'jwt-decode';
 
 import api from '../services/api'
 import axios from 'axios';
+import { color } from 'react-native-reanimated';
 
 export default class Consultas extends Component {
     constructor(props) {
@@ -86,28 +87,22 @@ export default class Consultas extends Component {
     }
     renderItem = ({ item }) => (
         <View style={styles.campoConsultas}>
-            <View style={styles.campoContainer}>
-                <Text style={styles.campoPaciente}>{item.idPacienteNavigation.idUsuarioNavigation.nome}</Text>
-                <Text style={styles.campoMedico}>Dr {item.idMedicoNavigation.idUsuarioNavigation.nome}</Text>
-            </View>
-    
-            <View style={styles.desc}>
-                <Text style={styles.campoDesc}>Descrição: {item.descricao}</Text>
-            </View>
-    
-            <View style={styles.agenda}>
-                <Text style={styles.campoStatus}>{item.situacao}</Text>
-                <Text style={styles.campoData}>{new Date (item.dataConsulta).toLocaleDateString()}</Text>
-            </View>                
+                <View style={styles.campoContainer}>
+                    <Text style={styles.campoPaciente}>{item.idPacienteNavigation.idUsuarioNavigation.nome}</Text>
+                    <Text style={styles.campoMedico}>Dr {item.idMedicoNavigation.idUsuarioNavigation.nome}</Text>
+                </View>
+        
+                <View style={styles.desc}>
+                    <Text style={styles.campoDesc}>Descrição: {item.descricao}</Text>
+                </View>
+        
+                <View style={styles.agenda}>
+                    <Text style={styles.campoStatus}>{item.situacao}</Text>
+                    <Text style={styles.campoData}>{new Date (item.dataConsulta).toLocaleDateString()}</Text>
+                </View>               
             </View>
         );
     }
-    renderItem = ({ item }) => (
-        <View style={styles.campoConsultas}>
-            
-        </View>
-    )
-
     const styles = StyleSheet.create({
         teste: {
             flex: 1,

@@ -11,7 +11,7 @@ export default class Perfil  extends Component {
     render(){
         return (
             <View style={styles.container}>
-              <Text>Perfil teste </Text>
+              <Text>Perfil</Text>
             </View>
         );
     }
