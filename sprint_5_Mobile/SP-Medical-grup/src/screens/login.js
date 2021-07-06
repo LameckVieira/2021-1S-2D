@@ -66,5 +66,36 @@ export default class Login extends Component {
 }
 
 const styles = StyleSheet.create({
-
+    teste: {
+        width: '100%',
+        height: '100%',
+        justifyContent: 'center',
+        alignItems: 'center'
+      },
+  
+      inputLogin:{
+          width: 276,
+          color: '#fff',
+          borderColor: '#fff',
+          borderBottomWidth: 2,
+          marginBottom: 50,
+  
+  
+      },
+  
+      btnLogin: {
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: 276,
+          height: 38,
+          color: '#fff',
+          borderColor: '#fff',
+          borderWidth: 2,
+          borderRadius: 4,
+      },
+  
+      btnLoginTexto: {
+          color: '#fff',
+          fontSize: 14,
+      }
 });
