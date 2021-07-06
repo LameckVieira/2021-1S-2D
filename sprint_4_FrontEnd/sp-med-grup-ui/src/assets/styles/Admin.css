@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+:root{
+    --azul: #3582FF;
+    --azulClaro: #83BEDF;
+    --verdeClaro: #81DF99;
+    --verde: #1AE0B4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho{
+
+    height: 120px;
+    
+    display: flex;
+    align-items: center;
+
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(50deg, var(--verde), var(--azul));
+    border-image-slice: 1;
+
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu a{
+    width: 170px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: 2px solid var(--verde);
+    border-radius: 50px;
+
+    
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--verde);
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: var(--verde);
+    color:white
+}
+
+#linha{
+    background-color: var(--azul);
+    height: 80px;
+    border-right: 3px solid var(--azul);
+}
+
+.user{
+    
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user p{
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.user img{
+    height: 75px;
+}
+
+/* CORPO */
+
+.pageConsulta{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 4vw;
+}
+
+.menus{
+    height: 15vw;
+    width: 8vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(0deg, var(--verde), var(--azul));
+    border-image-slice: 1;
+}
+
+.menusPage{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.menusPage a{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    color: #000;
+}
+
+.menusPage a:hover{
+    color: var(--azulClaro);
+}
+
+/*.lista{
+    
+}*/
+
+.lista h2{
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.listagem{
+    width: 1600px;
+    min-height: 600px;
+    margin-top: 5vw;
+    background-color: white; 
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+    border: 3px solid transparent;
+    border-image: linear-gradient(0deg, var(--verde), var(--azul));
+    border-image-slice: 1;
+    
+}  
+
+.listagem p{
+    margin-top: 1vw;
+
+    font-size: 24;
+    font-weight: 300;
+}
+
+.linha{
+    width: 5vw;
+
+
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(50deg, var(--verde), var(--azul));
+    border-image-slice: 1;
+}
+
+.listagem h2{
+    margin-top: 3vw;
+
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#tabela{
+    width: 1500px;
+    text-align: justify;
+    background: whitesmoke;
+    border-spacing: 0;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px 10px 10px 10px;
+
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+
+th,td{
+    padding: 10px 15px;
+    border: 1px solid #d1d1d1;
+    font-weight: 200;
+}
+
+th{
+    background: whitesmoke;
+    text-transform: uppercase;
+    color: #81DF99;
+    
+    
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
+.formulario{
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.listagemCadastro{
+
+    width: 1600px;
+    height: 560px;
+    margin-top: 5vw;
+    background-color: white; 
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+    border: 3px solid transparent;
+    border-image: linear-gradient(0deg, var(--verde), var(--azul));
+    border-image-slice: 1;
+    
+}
+
+
+.linha2{
+    width: 8vw;
+
+
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(50deg, var(--verde), var(--azul));
+    border-image-slice: 1;
+
+    margin-bottom: 3vw;
+}
+
+.formulario h2{
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.cadastro{
+    height: 200px;
+    width: 600px;
+    background-color: white;  
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+
+.cadastro select{
+    width: 15vw;
+    height: 2vw;
+    background-color: whitesmoke;
+
+    font-size: 24px;
+    border: 1px solid #d1d1d1;
+    
+
+    padding: 0 15px;
+}
+
+.data{
+    width: 15vw;
+    height: 2vw;
+
+    padding: 0 15px;
+
+    background-color: whitesmoke; 
+    border: 1px solid #d1d1d1;
+
+    font-size: 1em;
+    
+}
+
+.botao{
+    width: 17vw;
+    height: 50px;
+
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-image: linear-gradient(50deg, var(--verde), var(--azul));
+    border-image-slice: 1;
+
+    font-size: 20px;
+    color: var(--azulClaro);
+}
