@@ -7535,19 +7535,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lameck\\.nuget\\packages\\": {}
+    "C:\\Users\\08657641313\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lameck\\Desktop\\bd\\senai_sprint1_bd\\meu projeto\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\08657641313\\Desktop\\Repositorio\\2021-1S-2D\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi.csproj",
       "projectName": "SP_Medical_Grupe.WebApi",
-      "projectPath": "C:\\Users\\Lameck\\Desktop\\bd\\senai_sprint1_bd\\meu projeto\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi.csproj",
-      "packagesPath": "C:\\Users\\Lameck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lameck\\Desktop\\bd\\senai_sprint1_bd\\meu projeto\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\08657641313\\Desktop\\Repositorio\\2021-1S-2D\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi.csproj",
+      "packagesPath": "C:\\Users\\08657641313\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\08657641313\\Desktop\\Repositorio\\2021-1S-2D\\sprint-2-back-end\\SP-Medical-Group\\Senai-SP_mad_grupe\\SP_Medical_Grupe.WebApi\\SP_Medical_Grupe.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lameck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\08657641313\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7626,7 +7626,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
