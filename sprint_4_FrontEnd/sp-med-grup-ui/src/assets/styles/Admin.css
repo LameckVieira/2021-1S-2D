@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 
 :root{
-    --azul: #3582FF;
-    --azulClaro: #83BEDF;
-    --verdeClaro: #81DF99;
-    --verde: #1AE0B4;
+    --azul: #203c68;
+    --azulClaro: #dadada;
+    --verdeClaro: #beccc2;
+    --verde: #1a9278;
 }
 *{
     margin: 0;
@@ -105,7 +105,7 @@
     height: 75px;
 }
 
-/* CORPO */
+
 
 .pageConsulta{
     width: 100%;
@@ -149,9 +149,7 @@
     color: var(--azulClaro);
 }
 
-/*.lista{
-    
-}*/
+
 
 .lista h2{
     font-size: 36px;
@@ -321,4 +319,32 @@ tr:nth-child(odd){
 
     font-size: 20px;
     color: var(--azulClaro);
+}
+
+.botao:hover{
+    background-image: linear-gradient(50deg, var(--verde), var(--azul));
+    color: white;
+}
+
+.rodapePrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5vw;
+
+    background-image: linear-gradient(50deg, var(--verde), var(--azul));
+
+    margin-top: 5vw;
+ 
+}
+
+.texto p{
+    color: white;
+    font-size: 25px;
+}
+
+
+.btn{
+    margin-top: 1vw;
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { parseJwt, usuariAutenti } from '../../sevices/auth';
 
-import logo2  from '../../assets/img/logo2.png'
+import logo2  from '../../assets/img/logo.png'
 
 import '../../assets/styles/Login.css'
 

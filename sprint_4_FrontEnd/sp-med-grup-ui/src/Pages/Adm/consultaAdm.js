@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { parseJwt } from '../../sevices/auth';
+import { parseJwt } from '../../sevices/auten';
 
-import '../../assets/styles/Adm.css'
+import '../../assets/styles/Admin.css'
 
-import fotoUsuario  from '../../assets/img/Ellipse 1.png'
-import logo  from '../../assets/img/Logo.png'
+import fotoUsuario  from '../../assets/img/user1.png'
+import logo  from '../../assets/imgs/logo.sp.jpg'
 
 
 export default function ConsultaAdm(){
@@ -192,8 +192,8 @@ export default function ConsultaAdm(){
                                         return(
                                                 <tr key={consulta.idConsulta}>
                                                     <td>{consulta.idConsulta}</td>
-                                                    <td>{consulta./*idPacienteNavigation.idPaciente*/idPacienteNavigation.idUsuarioNavigation.nome}</td>
-                                                    <td>{consulta./*idMedicoNavigation.idMedico*/idMedicoNavigation.idUsuarioNavigation.nome}</td>
+                                                    <td>{consulta.idPacienteNavigation.idUsuarioNavigation.nome}</td>
+                                                    <td>{consulta.idMedicoNavigation.idUsuarioNavigation.nome}</td>
                                                     <td>{new Date (consulta.dataConsulta).toLocaleDateString()}</td>
                                                     <td>{consulta.descricao}</td>
                                                     <td>{consulta.situacao}</td>
@@ -298,7 +298,7 @@ export default function ConsultaAdm(){
         <footer className="rodapePrincipal">
             <section className="rodape">
                 <div className="texto">
-                    <p>Escola SENAI de Informática - 2021</p>
+                    <p>Lameck Vieira Barbosa</p>
                 </div>
             </section>
       </footer>
